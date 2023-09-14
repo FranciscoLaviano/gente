@@ -30,27 +30,25 @@ public class Personas {
      apellido.add("Pérez");
      apellido.add("Carbajal");
      apellido.add("Laviano");
-     apellido.add("Sosa");
+     
 
      List <String> segundoApellido = new ArrayList<>();
 
      segundoApellido.add("Alvarez");
      segundoApellido.add("Umpierrez");
-     segundoApellido.add("Pérez");
-     segundoApellido.add("Carbajal");
-     segundoApellido.add("Gimenez");
-     segundoApellido.add("Gonzalez");
+     segundoApellido.add("Sosa");
+     segundoApellido.add("");
      segundoApellido.add("");
 
 
-     
-         System.out.println("El nombre completo es:  " + nombre + "" + segundoNombre + "" + apellido + "" + segundoApellido
-          );
-
-
+     nombre.forEach(nombreCompleto -> {
+         System.out.println("El nombre completo es:  " + nombreCompleto);
+        });
 
      
-     /*
+
+     
+     
      segundoNombre.forEach(sN -> {
        System.out.println("El segundoNombre es: " + sN);
      });
@@ -61,7 +59,7 @@ public class Personas {
        
         System.out.println("Su segundo apellido es: " + sA);
        
-     });  */
+     });  
     }
     
 }
