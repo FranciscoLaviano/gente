@@ -17,9 +17,9 @@ public class Personas {
 
      List <String> segundoNombre = new ArrayList<>();
 
-     segundoNombre.add("Antoño");
+     segundoNombre.add("Antonio");
      segundoNombre.add("René");
-     segundoNombre.add("Pablo");
+     segundoNombre.add("");
      segundoNombre.add("Maria"); 
      segundoNombre.add("");
 
@@ -34,7 +34,7 @@ public class Personas {
 
      List <String> segundoApellido = new ArrayList<>();
 
-     segundoApellido.add("Gómez");
+     segundoApellido.add("Alvarez");
      segundoApellido.add("Umpierrez");
      segundoApellido.add("Pérez");
      segundoApellido.add("Carbajal");
@@ -43,13 +43,14 @@ public class Personas {
      segundoApellido.add("");
 
 
-     nombre.forEach(nombreCompleto -> {
-         System.out.println("El nombre completo es:  " + nombreCompleto );
-
-
-
-     } );
      
+         System.out.println("El nombre completo es:  " + nombre + "" + segundoNombre + "" + apellido + "" + segundoApellido
+          );
+
+
+
+     
+     /*
      segundoNombre.forEach(sN -> {
        System.out.println("El segundoNombre es: " + sN);
      });
@@ -60,7 +61,7 @@ public class Personas {
        
         System.out.println("Su segundo apellido es: " + sA);
        
-     }); 
+     });  */
     }
     
 }
